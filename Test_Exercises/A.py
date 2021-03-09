@@ -1,4 +1,4 @@
-def solve(n,k): #function solver
+def solve(n,k): 
     number_set = list(range((k+1) // 2,k)) + list(range(k+1,n+1))
     print(len(number_set))
     print(" ".join(map(str, number_set)))
